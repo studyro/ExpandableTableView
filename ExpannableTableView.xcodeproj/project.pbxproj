@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C21C956163F7A83008D72FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C21C955163F7A83008D72FA /* UIKit.framework */; };
+		1C21C958163F7A83008D72FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C21C957163F7A83008D72FA /* Foundation.framework */; };
+		1C21C95A163F7A83008D72FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C21C959163F7A83008D72FA /* CoreGraphics.framework */; };
+		1C21C960163F7A83008D72FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C21C95E163F7A83008D72FA /* InfoPlist.strings */; };
+		1C21C962163F7A83008D72FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C21C961163F7A83008D72FA /* main.m */; };
+		1C21C966163F7A83008D72FA /* PZHNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C21C965163F7A83008D72FA /* PZHNAppDelegate.m */; };
+		1C21C968163F7A83008D72FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C21C967163F7A83008D72FA /* Default.png */; };
+		1C21C96A163F7A83008D72FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C21C969163F7A83008D72FA /* Default@2x.png */; };
+		1C21C96C163F7A83008D72FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C21C96B163F7A83008D72FA /* Default-568h@2x.png */; };
+		1C21C980163FA58B008D72FA /* PZHNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C21C97F163FA58B008D72FA /* PZHNViewController.m */; };
+		1C21C986163FCFE5008D72FA /* PZHNExpandableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C21C985163FCFE5008D72FA /* PZHNExpandableTableView.m */; };
+		1C21C98B16414783008D72FA /* ETTestViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C21C98A16414783008D72FA /* ETTestViewCell.m */; };
+		1CB8C6611650C6AE00DEC28C /* ETTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB8C6601650C6AE00DEC28C /* ETTestModel.m */; };
+		1CB8C68616531FBF00DEC28C /* ETShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB8C68516531FBF00DEC28C /* ETShadowView.m */; };
+		1CB8C6891653300D00DEC28C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB8C6881653300D00DEC28C /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C21C951163F7A83008D72FA /* ExpannableTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpannableTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C21C955163F7A83008D72FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C21C957163F7A83008D72FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C21C959163F7A83008D72FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C21C95D163F7A83008D72FA /* ExpannableTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExpannableTableView-Info.plist"; sourceTree = "<group>"; };
+		1C21C95F163F7A83008D72FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C21C961163F7A83008D72FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C21C963163F7A83008D72FA /* ExpannableTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExpannableTableView-Prefix.pch"; sourceTree = "<group>"; };
+		1C21C964163F7A83008D72FA /* PZHNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZHNAppDelegate.h; sourceTree = "<group>"; };
+		1C21C965163F7A83008D72FA /* PZHNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZHNAppDelegate.m; sourceTree = "<group>"; };
+		1C21C967163F7A83008D72FA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1C21C969163F7A83008D72FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1C21C96B163F7A83008D72FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1C21C97E163FA58B008D72FA /* PZHNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZHNViewController.h; sourceTree = "<group>"; };
+		1C21C97F163FA58B008D72FA /* PZHNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZHNViewController.m; sourceTree = "<group>"; };
+		1C21C984163FCFE5008D72FA /* PZHNExpandableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZHNExpandableTableView.h; sourceTree = "<group>"; };
+		1C21C985163FCFE5008D72FA /* PZHNExpandableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZHNExpandableTableView.m; sourceTree = "<group>"; };
+		1C21C98916414782008D72FA /* ETTestViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTestViewCell.h; sourceTree = "<group>"; };
+		1C21C98A16414783008D72FA /* ETTestViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTestViewCell.m; sourceTree = "<group>"; };
+		1CB8C65F1650C6AE00DEC28C /* ETTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTestModel.h; sourceTree = "<group>"; };
+		1CB8C6601650C6AE00DEC28C /* ETTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTestModel.m; sourceTree = "<group>"; };
+		1CB8C68416531FBF00DEC28C /* ETShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETShadowView.h; sourceTree = "<group>"; };
+		1CB8C68516531FBF00DEC28C /* ETShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETShadowView.m; sourceTree = "<group>"; };
+		1CB8C6881653300D00DEC28C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C21C94E163F7A83008D72FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB8C6891653300D00DEC28C /* QuartzCore.framework in Frameworks */,
+				1C21C956163F7A83008D72FA /* UIKit.framework in Frameworks */,
+				1C21C958163F7A83008D72FA /* Foundation.framework in Frameworks */,
+				1C21C95A163F7A83008D72FA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C21C946163F7A83008D72FA = {
+			isa = PBXGroup;
+			children = (
+				1C21C95B163F7A83008D72FA /* ExpannableTableView */,
+				1C21C954163F7A83008D72FA /* Frameworks */,
+				1C21C952163F7A83008D72FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C21C952163F7A83008D72FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C21C951163F7A83008D72FA /* ExpannableTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C21C954163F7A83008D72FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CB8C6881653300D00DEC28C /* QuartzCore.framework */,
+				1C21C955163F7A83008D72FA /* UIKit.framework */,
+				1C21C957163F7A83008D72FA /* Foundation.framework */,
+				1C21C959163F7A83008D72FA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C21C95B163F7A83008D72FA /* ExpannableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				1C21C964163F7A83008D72FA /* PZHNAppDelegate.h */,
+				1C21C965163F7A83008D72FA /* PZHNAppDelegate.m */,
+				1C21C97E163FA58B008D72FA /* PZHNViewController.h */,
+				1C21C97F163FA58B008D72FA /* PZHNViewController.m */,
+				1C21C984163FCFE5008D72FA /* PZHNExpandableTableView.h */,
+				1C21C985163FCFE5008D72FA /* PZHNExpandableTableView.m */,
+				1C21C98916414782008D72FA /* ETTestViewCell.h */,
+				1C21C98A16414783008D72FA /* ETTestViewCell.m */,
+				1CB8C68416531FBF00DEC28C /* ETShadowView.h */,
+				1CB8C68516531FBF00DEC28C /* ETShadowView.m */,
+				1CB8C65F1650C6AE00DEC28C /* ETTestModel.h */,
+				1CB8C6601650C6AE00DEC28C /* ETTestModel.m */,
+				1C21C95C163F7A83008D72FA /* Supporting Files */,
+			);
+			path = ExpannableTableView;
+			sourceTree = "<group>";
+		};
+		1C21C95C163F7A83008D72FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C21C95D163F7A83008D72FA /* ExpannableTableView-Info.plist */,
+				1C21C95E163F7A83008D72FA /* InfoPlist.strings */,
+				1C21C961163F7A83008D72FA /* main.m */,
+				1C21C963163F7A83008D72FA /* ExpannableTableView-Prefix.pch */,
+				1C21C967163F7A83008D72FA /* Default.png */,
+				1C21C969163F7A83008D72FA /* Default@2x.png */,
+				1C21C96B163F7A83008D72FA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C21C950163F7A83008D72FA /* ExpannableTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C21C975163F7A83008D72FA /* Build configuration list for PBXNativeTarget "ExpannableTableView" */;
+			buildPhases = (
+				1C21C94D163F7A83008D72FA /* Sources */,
+				1C21C94E163F7A83008D72FA /* Frameworks */,
+				1C21C94F163F7A83008D72FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExpannableTableView;
+			productName = ExpannableTableView;
+			productReference = 1C21C951163F7A83008D72FA /* ExpannableTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C21C948163F7A83008D72FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PZHN;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Studyro Studio";
+			};
+			buildConfigurationList = 1C21C94B163F7A83008D72FA /* Build configuration list for PBXProject "ExpannableTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C21C946163F7A83008D72FA;
+			productRefGroup = 1C21C952163F7A83008D72FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C21C950163F7A83008D72FA /* ExpannableTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C21C94F163F7A83008D72FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C21C960163F7A83008D72FA /* InfoPlist.strings in Resources */,
+				1C21C968163F7A83008D72FA /* Default.png in Resources */,
+				1C21C96A163F7A83008D72FA /* Default@2x.png in Resources */,
+				1C21C96C163F7A83008D72FA /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C21C94D163F7A83008D72FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C21C962163F7A83008D72FA /* main.m in Sources */,
+				1C21C966163F7A83008D72FA /* PZHNAppDelegate.m in Sources */,
+				1C21C980163FA58B008D72FA /* PZHNViewController.m in Sources */,
+				1C21C986163FCFE5008D72FA /* PZHNExpandableTableView.m in Sources */,
+				1C21C98B16414783008D72FA /* ETTestViewCell.m in Sources */,
+				1CB8C6611650C6AE00DEC28C /* ETTestModel.m in Sources */,
+				1CB8C68616531FBF00DEC28C /* ETShadowView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C21C95E163F7A83008D72FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C21C95F163F7A83008D72FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C21C973163F7A83008D72FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C21C974163F7A83008D72FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C21C976163F7A83008D72FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExpannableTableView/ExpannableTableView-Prefix.pch";
+				INFOPLIST_FILE = "ExpannableTableView/ExpannableTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C21C977163F7A83008D72FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExpannableTableView/ExpannableTableView-Prefix.pch";
+				INFOPLIST_FILE = "ExpannableTableView/ExpannableTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C21C94B163F7A83008D72FA /* Build configuration list for PBXProject "ExpannableTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C21C973163F7A83008D72FA /* Debug */,
+				1C21C974163F7A83008D72FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C21C975163F7A83008D72FA /* Build configuration list for PBXNativeTarget "ExpannableTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C21C976163F7A83008D72FA /* Debug */,
+				1C21C977163F7A83008D72FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C21C948163F7A83008D72FA /* Project object */;
+}
